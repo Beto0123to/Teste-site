@@ -32,3 +32,57 @@
     <script src="js/script.js"></script>
 </body>
 </html>
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+}
+
+#idadeVerificacao {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #FF6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #FF4500;
+}
+
+.video-container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.video-item {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+video {
+    width: 320px;
+    height: 240px;
+}
+
+
